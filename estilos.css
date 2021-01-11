@@ -1,0 +1,139 @@
+/* GLOBALES */
+
+.contenedor-sobre{
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+
+height: 300px;
+width: 300px;
+
+}
+
+.boton{
+    text-decoration: none;
+    color: #ffffff;;
+    background-color: #000000;
+    border: 2px solid #000000;
+    padding: 10px;
+   border-radius: 10%;
+ 
+}
+
+.boton:hover{
+color:#B31F16;
+}
+
+/* HEADER*/
+header{
+background-image: url(imagenes/desa.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+
+}
+header .barra{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  
+    height: 150px;
+    
+    
+    
+}
+
+nav a{
+   
+    text-decoration: none;
+    color: #000000;;
+    font-size: 22px;
+    margin-right: 150px;
+    border-bottom: 2px solid #B31F16;
+    
+    
+}
+
+nav a:hover{
+    color: 	#B31F16;
+}
+
+header img{ 
+    background-color: #ffff;
+    max-height: 100px;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+nav{
+    margin: 60 auto 0 auto;
+    
+}
+
+header h1{
+    color: 	#B31F16;
+    font-size: 100px;
+    margin: 0 auto 200 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* MUEBLES */
+
+.iconos-muebles{
+    display: flex;
+}
+
+.icono{
+  
+    margin: 0 auto;
+  
+    background-color: #B31F16;
+}
+
+.icono:hover{
+    border:2px solid #B31F16; 
+}
+
+/* SOBRE MI */
+
+
+h2{
+font-size: 50px;
+}
+
+.yo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-mi img{
+    border-radius: 100%;
+}
+
+/* CONTACTO */ 
+
+.contenido-contacto{
+
+    background-image: url(imagenes/reunion.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+/* footer */
+
+footer{
+    display: flex;
+}
